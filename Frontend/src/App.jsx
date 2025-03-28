@@ -14,7 +14,7 @@ function App() {
     <>
       <Chatbotfrontend/>
       {/* Define your routes */}
-      <Router >
+      <Router basename='/FishCompass'>
         <Routes>
           <Route path="/login" element={<Login/>}/>
           <Route path="/signup" element={<SignUp/>}/>
